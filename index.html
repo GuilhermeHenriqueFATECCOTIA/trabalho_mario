@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu site </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous">
+ 
+    </script>
+
+    <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg bg-black navbar-dark " style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+            <a class="navbar-brand" href="#Serviços" >Serviços</a>
+            
+            <a class="navbar-brand" href="#Clientes">Clientes</a>
+            <a class="navbar-brand" href="#Sobre">Sobre nós</a>
+            <a class="navbar-brand" href="#Contato">Contato</a>
+        </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <div class="accordion accordion-flush " id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="Serviços">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                    Serviços
+                </button>
+            </h2>
+
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                aria-expanded="true" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body ">
+
+                    <div class="row">
+                        <div class="col-sm-3">
+
+                            <div class="card text-center" style="width: 18rem;">
+                                <img src="IMG/car-front.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Funilaria e Pintura </h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Mfunilaria">Saiba mais</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="Mfunilaria" tabindex="-1" aria-labelledby="Mfunilaria"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="Mfunilaria">Funilaria e Pintura </h1>
+                                        <button type="button" class="btn-close align-items-md-center"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body align-bottom">
+                                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                            <div class="carousel-indicators">
+                                                <butto n type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="IMG/funilaria pintura/1.png" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="IMG/funilaria pintura/2.jpg" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="IMG/funilaria pintura/3.webp" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="IMG/funilaria pintura/4.jpg" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+
+                            <div class="card text-center" style="width: 18rem;">
+                                <img src="IMG/289777.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"> Polimento </h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#MPolimento">Saiba mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="MPolimento" tabindex="-1" aria-labelledby="MPolimento"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="MPolimento">Polimento </h1>
+                                        <button type="button" class="btn-close align-items-md-center"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+
+                                    <div class="modal-body align-bottom">
+                                        <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="true">
+                                            <div class="carousel-indicators">
+                                                <butto n type="button" data-bs-target="#carouselExampleIndicators1"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="IMG/polimento/1.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item ">
+                                                    <img src="IMG/polimento/2.webp" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="IMG/polimento/3.jpg" class="d-block w-100" alt="...">
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="IMG/polimento/4.webp" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+
+                            <div class="card text-center" style="width: 18rem;">
+                                <img src="IMG/hammer.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"> Martelinho de Ouro </h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Mmarteelinho">Saiba mais</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="Mmarteelinho" tabindex="-1" aria-labelledby="Mmarteelinho"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="Mmarteelinho">Martelinho de Ouro </h1>
+                                        <button type="button" class="btn-close align-items-md-center"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body align-bottom">
+                                        <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
+                                            <div class="carousel-indicators">
+                                                <butto n type="button" data-bs-target="#carouselExampleIndicators2"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="IMG/martelinho/1.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="IMG/martelinho/2.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="IMG/martelinho/3.jpg" class="d-block w-100" alt="...">
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="IMG/martelinho/4.png" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-sm-3">
+
+                            <div class="card text-center" style="width: 18rem;">
+                                <img src="IMG/bucket-fill.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Higenização </h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <a href="#Mlimpeza" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="">Saiba mais</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="Mlimpeza" tabindex="-1" aria-labelledby="Mlimpeza"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="Mlimpeza">Martelinho de Ouro </h1>
+                                        <button type="button" class="btn-close align-items-md-center"
+                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body align-bottom">
+                                        <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="true">
+                                            <div class="carousel-indicators">
+                                                <butto n type="button" data-bs-target="#carouselExampleIndicators3"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="IMG/higenização/1.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="IMG/higenização/2.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="IMG/higenização/3.jpg" class="d-block w-100" alt="...">
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="IMG/higenização/4.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="Clientes">
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Clientes
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+
+                        <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="IMG/1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="IMG/2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="IMG/4.jpg" class="d-block w-100" alt="...">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="IMG/3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="Sobre">
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Sobre nós
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <video class="elementor-video col-12 m-auto"
+                            src="https://artecarros.com.br/wp-content/uploads/2022/07/144-ArteCarros.mp4" autoplay loop
+                            controls muted="muted" controlslist="nodownload"></video>
+                        <div class="accordion accordion-flush backgr" id="accordionFlushExample">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="accordion-item">
+                    <h2  class="accordion-header" id="Contato">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush" aria-expanded="false" aria-controls="flush">
+                            Contato
+                        </button>
+                    </h2>
+                    <div id="flush" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+
+                                <div class="col-6">
+                                    <label for="inputAddress" class="form-label">Telefone</label>
+                                    <input type="number" class="form-control" id="inputAddress" placeholder="">
+                                </div>
+                                <div class="col-6">
+                                    <label for="inputAddress2" class="form-label"> Melhor dia para contato</label>
+                                    <input type="datE" class="form-control" id="inputAddress2" placeholder="DD/MM/AAAA">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputCity" class="form-label">Modelo</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputState" class="form-label">Montadora</label>
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Esolha</option>
+                                        <option>Ford</option>
+                                        <option>Peugeot</option>
+                                        <option>Volkswagen</option>
+                                        <option>Chevrolet</option>
+                                        <option>Nissan</option>
+                                        <option>Ford</option>
+                                        <option>Toyota</option>
+                                        <option>Honda</option>
+                                        <option>Hyundai</option>
+                                    </select>
+                                </div>
+                                <div class="col-2">
+                                    <label for="inputAddress2" class="form-label">Ano</label>
+                                    <input type="datE" class="form-control" id="inputAddress2" placeholder="DD/MM/AAAA">
+                                </div>
+                                <div class="col-6 align-content-center">
+                                    <label for="fotosOrçamento" class="form-label"> Fotos da avaria</label>
+                                    <input type="file" accept="image/*" class="form-control" id="fotos" multiple>
+                                </div>
+                                <div class="col-6">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Descreva as
+                                        avarias</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                                </div>
+                                <div class="col-12 align-content-center">
+                                    <button type="submit" class="btn btn-primary">Solicitar orçamento</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+</body>
+
+</html>
